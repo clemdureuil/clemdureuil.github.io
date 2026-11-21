@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Clément Dureuil — research interests in tabular and time-series foundation models.">
+  <meta name="color-scheme" content="light dark">
+  <title>Clément Dureuil</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="navigation" aria-label="Main navigation">
+      <a class="brand" href="#top">Clément Dureuil</a>
+      <div class="nav-links"><a href="#about">About</a><a href="#news">News</a><a href="#interests">Research</a><a href="#experience">Experience</a><a href="#education">Education</a><button class="theme-toggle" type="button" aria-label="Switch color theme" title="Switch color theme">◐</button></div>
+    </nav>
+  </header>
+  <main id="main" class="container">
+    <section id="about" aria-labelledby="top">
+      <h1 id="top">Clément Dureuil</h1>
+      <p class="subtitle">Machine Learning · Tabular Foundation Models · Time-Series Forecasting</p>
+      <img class="profile-photo" src="assets/clement-portrait.png" alt="Portrait of Clément Dureuil" width="200" height="200">
+      <div class="intro">
+        <p>I recently completed a research internship at <a href="https://www.neuralk.ai/">Neuralk AI</a>, where I worked on tabular foundation models and contributed to Seldon. My research project explored multi-task learning, synthetic data generation and in-context prediction, in collaboration with researchers at Université de Lorraine.</p>
+        <p>Previously, I worked on financial data for systematic trading teams at <a href="https://www.qube-rt.com/">Qube Research &amp; Technologies</a> and on demand forecasting at Ida, where I trained and evaluated time-series models.</p>
+        <p>My background is in mathematics and machine learning, through the MVA master’s at ENS Paris-Saclay and the engineering programme at École des Ponts ParisTech. I’m interested in foundation models for structured and temporal data, particularly model architectures, representation learning and generalization.</p>
+        <p>I’m currently looking for a research scientist or research engineer internship to complete my engineering degree, with the possibility of continuing full-time afterwards. <a href="mailto:clemdureuil2@gmail.com">Get in touch</a>.</p>
+      </div>
+      <div class="links" aria-label="Contact links"><a href="mailto:clemdureuil2@gmail.com">EMAIL <span>↗</span></a><a href="https://www.linkedin.com/in/cl%C3%A9ment-dureuil-5a5b32201/">LINKEDIN <span>↗</span></a><a href="https://github.com/clemdureuil">GITHUB <span>↗</span></a></div>
+    </section>
+
+    <section id="news" class="content-section">
+      <h2>News</h2>
+      <div class="news-list">
+        <div class="news-item"><time datetime="2026-11">Nov 2026</time><p>Neuralk released <strong>Seldon Large and Seldon Mini</strong>. At release, Seldon ranked third on TabArena and was on the performance–efficiency Pareto frontier. <a href="https://www.linkedin.com/posts/opensource-tabularfoundationmodels-predictiveai-ugcPost-7523080075974459392-7G0e/">Announcement ↗</a></p></div>
+        <div class="news-item"><time datetime="2026-06-12">Jun 2026</time><p>Co-authored the <a href="https://technical-report.neuralk.ai/">Seldon technical report ↗</a>, introducing Neuralk’s tabular foundation model.</p></div>
+      </div>
+    </section>
+
+    <section id="interests" class="content-section">
+      <h2>Research interests</h2>
+      <p class="section-intro">I’m interested in how models learn useful representations across datasets and generalize to new tasks.</p>
+      <div class="interest-list">
+        <details><summary>Tabular foundation models and synthetic data</summary><p>Pretraining on diverse datasets, in-context learning, and understanding how the choice of synthetic data affects generalization.</p></details>
+        <details><summary>Time-series foundation models</summary><p>Forecasting across domains, learning temporal representations and developing models that make effective use of historical context.</p></details>
+        <details><summary>Architectures and representation learning</summary><p>Exploring efficient sequence models, model design and pretraining objectives for structured and temporal data.</p></details>
+        <details><summary>Predictive world models</summary><p>Learning representations of evolving systems that support prediction and simulation.</p></details>
+      </div>
+    </section>
+
+    <section id="project" class="content-section">
+      <h2>Selected research</h2>
+      <article class="research-project"><div class="project-meta">NEURALK AI · MVA RESEARCH INTERNSHIP · 2026</div><h3>Multi-task learning for tabular foundation models</h3><p>I investigated whether learning to recover causal structure from synthetic data could improve a tabular foundation model’s predictions. I designed a multi-task architecture, adapted the data generation process and evaluated it against a prediction-only baseline. In my experiments, the auxiliary task did not improve predictive performance, so I explored changes to the setup and the interaction between tasks.</p></article>
+    </section>
+
+    <section id="experience" class="content-section">
+      <h2>Experience</h2>
+      <div class="entry"><span class="date">2026</span><div><h3 class="experience-heading"><span class="company-logo neuralk"><img src="assets/neuralk-wordmark.png" alt="" loading="lazy"></span><span class="company-name">Neuralk AI</span> <span>· Paris</span></h3><p class="role">AI Research Intern · with Université de Lorraine</p><p>Research on tabular foundation models, synthetic data and multi-task learning; experience pretraining models with PyTorch on multi-GPU infrastructure.</p></div></div>
+      <div class="entry"><span class="date">2025</span><div><h3 class="experience-heading"><span class="company-logo qrt"><img src="assets/qrt.png" alt="" loading="lazy"></span><span class="company-name">Qube Research &amp; Technologies</span> <span>· London</span></h3><p class="role">Data Engineer Intern</p><p>Built data pipelines for financial datasets used by systematic trading teams, including ingestion, normalization and data quality.</p></div></div>
+      <div class="entry"><span class="date">2024–2025</span><div><h3 class="experience-heading"><span class="company-logo ida"><img src="assets/ida.png" alt="" loading="lazy"></span><span class="company-name">Ida</span> <span>· Paris</span></h3><p class="role">Data Scientist Intern</p><p>Worked on demand forecasting for retail, training and evaluating models including DeepAR against client baselines.</p></div></div>
+    </section>
+
+    <section id="education" class="content-section">
+      <h2>Education</h2>
+      <div class="education-list">
+        <div class="education-entry"><span class="education-logo"><img src="assets/ens-paris-saclay.png" alt="" loading="lazy"></span><p><strong>ENS Paris-Saclay</strong><br><span>Master MVA · Mathematics, Vision &amp; Learning</span></p></div>
+        <div class="education-entry"><span class="education-logo"><img src="assets/ponts.png" alt="" loading="lazy"></span><p><strong>École des Ponts ParisTech</strong><br><span>Engineering programme · Mathematics &amp; Computer Science</span></p></div>
+        <div class="education-entry"><span class="education-logo"><img src="assets/pasteur.png" alt="" loading="lazy"></span><p><strong>Lycée Pasteur</strong><br><span>Classes préparatoires · Mathematics &amp; Physics</span></p></div>
+      </div>
+    </section>
+    <footer><a href="mailto:clemdureuil2@gmail.com">clemdureuil2@gmail.com</a><span>© Clément Dureuil</span></footer>
+  </main>
+</body>
+</html>
